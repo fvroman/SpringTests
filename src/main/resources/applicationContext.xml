@@ -16,9 +16,5 @@
     </bean>
     <bean id="fortuneService"
           class="hello.HappyFortuneService"/>
-    <bean id="footballCoach"
-          class="hello.FootballCoach">
-        <property name="fortuneService" ref="fortuneService"/>
-    </bean>
 
 </beans>
